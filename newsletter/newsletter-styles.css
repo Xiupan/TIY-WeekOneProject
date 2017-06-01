@@ -1,0 +1,112 @@
+/*
+https://fonts.google.com/?selection.family=Merriweather:300,300i,400,400i,700%7CRoboto:300,300i,400,400i
+*/
+
+/*
+Background: #F2F1E8
+Text: #131511
+Inline Link: #968772
+Inline Link (Hover): #967343
+Navigation Background: #FFFFFF
+Navigation Text: #2B2F26
+Navigation Text (Hover): #CD5D67
+Navigation Text (Active) #968772
+Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343
+*/
+
+.nav-top-bar{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#newsletter-link-a{
+  color: #968772;
+}
+
+#logo-container{
+  background-image: url(../images/bent-creek-logo.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-left: -49%;
+  margin-top: -1%;
+}
+
+li{
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+li a{
+  text-decoration: underline;
+  color: black;
+}
+
+h2, h3{
+  font-family: "Merriweather", "Roboto", serif;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 175%;
+}
+
+.background-img{
+  position: fixed;
+  background-image: url(../images/background-2.jpg);
+  background-position: center center 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-0.8%);
+}
+
+.form-container{
+  background-color: white;
+  margin-top: 15%;
+  margin-left: 22.5%;
+  text-align: center;
+  box-sizing: border-box;
+  width: 55%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+#nameInput, #emailInput{
+  font-family: "Roboto", sans-serif;
+  font-size: 125%;
+  color: grey;
+  border: none;
+  border-bottom: 2px solid #968772;
+  width: 90%;
+  margin-bottom: 3%;
+}
+
+#signupButton{
+  font-family: "Roboto", sans-serif;
+  font-size: 125%;
+  background-color: #968772;
+  padding: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  transform: translateY(20%);
+  border: none;
+  color: white;
+}
